@@ -1,0 +1,20 @@
+package testNG;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+import org.testng.annotations.BeforeSuite;
+
+import functionalDriven.GenericMethods;
+
+public class TestNGMaster extends GenericMethods {
+	public String expval, actval;
+	public FileInputStream fi;
+	public String fPath = System.getProperty("user.dir")+"\\src\\com\\SeleniumProject\\properties\\orgHRM.properties";
+	public Properties pr;
+	@BeforeSuite
+	public void orgLaunch(){
+		
+	}
+
+}

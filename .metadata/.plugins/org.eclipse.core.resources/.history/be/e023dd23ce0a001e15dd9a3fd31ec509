@@ -1,0 +1,5 @@
+package testNG;
+
+public class EmpRegTc_TestNG extends TestNGMaster {
+
+}

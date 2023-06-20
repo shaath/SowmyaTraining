@@ -1,0 +1,11 @@
+package testNG;
+
+import org.testng.annotations.Test;
+
+public class UserRegTC_TestNG extends TestNGMaster {
+
+	@Test
+	pulic void orgUserReg(){
+		
+	}
+}

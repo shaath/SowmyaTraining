@@ -1,0 +1,11 @@
+package testNG;
+
+import org.testng.annotations.Test;
+
+public class EmpRegTc_TestNG extends TestNGMaster {
+
+	@Test
+	public void orgEmpReg(){
+		
+	}
+}

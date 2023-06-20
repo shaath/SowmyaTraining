@@ -1,0 +1,36 @@
+package day13;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class ScroltoElementEg {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("https://amazon.com");
+		
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(360));
+		
+		WebElement navb = driver.findElement(By.id("navBackToTop"));
+		
+		Actions act = new Actions(driver);
+		
+		act.scrollToElement(navb).perform();
+		
+		Thread.sleep(5000);
+		act.scrollToElement(navb).perform();
+		
+		Thread.sleep(5000);
+
+	}
+
+}

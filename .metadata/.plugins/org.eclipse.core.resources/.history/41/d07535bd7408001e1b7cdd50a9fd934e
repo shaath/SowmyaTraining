@@ -1,0 +1,36 @@
+package functionalDriven;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class LoginTest {
+
+	public static void main(String[] args) throws InterruptedException, IOException {
+		System.out.println(System.getProperty("user.dir"));
+//		String fPath = System.getProperty("user.dir")+"\\properties\\orgHRM.properties";
+//		FileInputStream fi = new FileInputStream(fPath);
+//		Properties pr = new Properties();
+//		pr.load(fi);
+//		
+//		System.out.println(pr.getProperty("username"));
+		
+//		BusinessMethods bm = new BusinessMethods();
+//		String res = null;
+//		
+//		res = bm.orgLaunch("firefox", "http://orangehrm.qedgetech.com");
+//		System.out.println("Application Launch "+res);
+//		
+//		res = bm.orgLogin("Admin", "Qedge123!@#");
+//		System.out.println("Application Login "+res);
+//		
+//		res = bm.orgLogout();
+//		System.out.println("Application Logout "+res);
+//		
+//		bm.orgClose();
+//		System.out.println("Browser Closed Successfully");
+
+	}
+
+}

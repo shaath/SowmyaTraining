@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grid" duration-ms="55715" started-at="2023-06-18T16:22:16Z" finished-at="2023-06-18T16:23:12Z">
+    <groups>
+    </groups>
+    <test name="On edge" duration-ms="54019" started-at="2023-06-18T16:22:16Z" finished-at="2023-06-18T16:23:10Z">
+      <class name="grid.GridEg1">
+        <test-method status="PASS" signature="grid(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg1@4dfa3a9d]" name="grid" duration-ms="53924" started-at="2023-06-18T21:52:16Z" finished-at="2023-06-18T21:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.GridEg1 -->
+    </test> <!-- On edge -->
+    <test name="On Chrome" duration-ms="55135" started-at="2023-06-18T16:22:16Z" finished-at="2023-06-18T16:23:11Z">
+      <class name="grid.GridEg1">
+        <test-method status="PASS" signature="grid(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg1@1a968a59]" name="grid" duration-ms="55053" started-at="2023-06-18T21:52:16Z" finished-at="2023-06-18T21:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.GridEg1 -->
+    </test> <!-- On Chrome -->
+    <test name="On Firefox" duration-ms="55715" started-at="2023-06-18T16:22:16Z" finished-at="2023-06-18T16:23:12Z">
+      <class name="grid.GridEg1">
+        <test-method status="PASS" signature="grid(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg1@26653222]" name="grid" duration-ms="55632" started-at="2023-06-18T21:52:16Z" finished-at="2023-06-18T21:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.GridEg1 -->
+    </test> <!-- On Firefox -->
+  </suite> <!-- Grid -->
+</testng-results>
